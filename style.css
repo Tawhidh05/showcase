@@ -1,0 +1,63 @@
+* {
+    font-family: "Zain", sans-serif;
+    font-style: normal;
+    margin: 0px;
+}
+
+body {
+    background-color: #fbdbdb;
+}
+
+/* Shared Property */
+
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+/* Colors */
+
+.snow {
+    color: #fbdbdb;
+}
+.dusty-grey {
+    color: #878787;
+}
+.stale-grey {
+    color: #262626;
+}
+.gluon-grey {
+    color: #1b1b1b;
+}
+.liquid-lava {
+    color: #f56e0f;
+}
+.dark-void {
+    color: #151419;
+}
+
+/* Navbar */
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      position: fixed;
+      width: 25%;
+      height: 100vh;
+      background-color: #fbdbdb;
+      text-align: left;
+      border-right: 2px solid #262626 ;
+    }
+
+    .navbar a, li {
+      display: block;
+      padding: 12px 20px;
+      color: #262626;
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: 600;
+      font-size: 1em;
+    }
+
+    .navbar a:hover {
+      background-color: #f56e0f;
+      border-radius: 15px;
+      color: #fbfbfb;
+    }
